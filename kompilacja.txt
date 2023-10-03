@@ -1,0 +1,2 @@
+g++ -o hot HoughTransform.cpp -I /usr/local/include/opencv4/ -L /usr/local/share/opencv4 -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_cudaarithm -lopencv_cudafilters -lopencv_cudaimgproc -lopencv_cudaoptflow -lopencv_cudawarping -lopencv_cudaobjdetect -lopencv_cudafeatures2d -lopencv_cudaoptflow -lcudart -DWITH_CUDA
+kto to wie jak to skompilować??? to jakieś straszne jest i nie działa - trzeba poczytać w internetach na stronie openCV
